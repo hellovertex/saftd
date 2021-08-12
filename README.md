@@ -23,17 +23,28 @@
 Note: all of the above can be deployed in the cloud - as is
 
 ## Install
-  - [https://docs.docker.com/engine/install/](install docker)
-  - [https://docs.docker.com/compose/install/](docker-compose)
+  - [install docker](https://docs.docker.com/engine/install/)
+  - [install docker-compose](https://docs.docker.com/compose/install/)
   - clone the repo
 ```sh
 git clone https://github.com/hellovertex/saftd.git
 ``` 
 
 ## Run-Example
-  - cd src
-  - docker-compose run zookeeper && sleep(3) && docker-compose run kafka && sleep(2) && docker-compose run data
-  
+```sh
+cd src
+# start zookeeper
+docker-compose run zookeeper && sleep(3) \
+# start kafka broker
+&& docker-compose run kafka && sleep(2) \
+# run data collection service
+&& docker-compose run data
+```
+Check out the docker-compose.yml file to find other services implement, e.g. '''aggregate, db, preprocess, ml''' and run them via
+```sh
+docker-compose run <SERVICE_NAME>
+```
+
 ## Todos:
 This project is still in an early stage, I will add things over time, including but not limited to 
 - typehints, pylint, tests
