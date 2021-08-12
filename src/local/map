@@ -1,0 +1,2 @@
+ML: ticks -> batch -> preprocess -> mltopic 
+DB  ticks -> batch -> store inside database

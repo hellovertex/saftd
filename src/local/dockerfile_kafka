@@ -1,0 +1,3 @@
+FROM openjdk:11.0
+
+CMD ["/opt/bin/kafka-server-start.sh", "/opt/config/server.properties"]

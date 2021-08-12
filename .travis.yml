@@ -1,0 +1,16 @@
+language: python
+python: 
+  - "3.8"
+
+services:
+  - docker
+
+before_script: pip install docker-compose
+
+script: 
+  docker-compose run test-data sh -c "pytest src/tests/test_data.py"
+  #- docker-compose run zookeeper && \
+  #sleep(3) && \
+  #docker-compose run kafka && \
+  #sleep(2) && \
+  #docker-compose run test-data sh -c "pytest src/tests/test_data.py"

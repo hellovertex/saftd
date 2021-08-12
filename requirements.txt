@@ -1,0 +1,10 @@
+faust
+kafka-python <= 1.5
+websockets
+tensorflow==2.5.0
+tensorflow-io==0.19.1
+pandas==1.3.1
+scikit-learn==0.24.2
+pytest==6.2.4
+pytest-kafka
+#flake8
