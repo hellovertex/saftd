@@ -56,4 +56,5 @@ This project is still in an early stage, I will add things over time, including 
 	 - e.g. Telegram (see my tgcxz on github)
 - run with kubernetes
 
-If you have questions, feel free to create an Issue here on github or write an email to hellovertex@outlook.com
+[comment]: <> (# If you have questions, feel free to create an Issue here on github or write an email to hellovertex@outlook.com)
+
