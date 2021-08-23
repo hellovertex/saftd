@@ -18,7 +18,7 @@
 - Bottom right: asynchronously update databases with incoming ticks
 - Bottom left: preprocessing computes ML data+labels and sends to new kafka topic
 - Top left: machine learning service consumes training data directly from kafka topic (can be changed) \
-  - Online model fitting in realtime (numbers shown here are random mocks)
+  - Online model fitting in realtime (numbers shown here are mocked)
 
 Note: all of the above can be deployed in the cloud - as is
 
