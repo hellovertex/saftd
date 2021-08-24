@@ -46,15 +46,7 @@ docker-compose run <SERVICE_NAME>
 ```
 
 ## Todos:
-This project is still in an early stage, I will add things over time, including but not limited to 
-- typehints, pylint, tests
-- continous deployment of retrained models 
-	 - using airflow (already running, see docker-compose.yml) with github actions
-- trigger BI-actions 
-	 - based on model-eval & custom metrics
-- integrate additional data feeds 
-	 - e.g. Telegram (see my tgcxz on github)
-- run with kubernetes
+The database and machine learning logic is mocked, you need to implement it yourself. 
 
 [comment]: <> (# If you have questions, feel free to create an Issue here on github or write an email to hellovertex@outlook.com)
 
