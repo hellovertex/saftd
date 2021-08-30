@@ -4,9 +4,8 @@
 
 [![Build Status](https://travis-ci.com/hellovertex/tmp.svg?token=RSzMFMtF1pv4mes5psTZ&branch=master)](https://travis-ci.org/hellovertex/tmp)
 
-[Service Oriented Architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture) for Algorithmic Trading and Financial Machine Learning (Experimental)
-- based on microservices by definition
-- every service can be run isolated via docker-compose run <service-name>
+[Service Oriented Streaming Architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture) for Financial and Trading Data (Experimental)
+
 
 ### [Features](#features) · [Install](#install) · [Run Example](#run-example) · [Todos](#todos)
 
